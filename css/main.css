@@ -1,6 +1,18 @@
 /* white #c9c1ac */
 /* red #d3325f */
 
+.aboutus-popup {
+  position: relative;
+  font-family: 'Courgette', cursive;
+  font-size: 1rem;
+  background: #c9c1ac;
+  color: #d3325f;
+  padding: 20px;
+  max-width: 50vw;
+  margin: 20px auto;
+}
+
+
 body{
   font-family: 'Tangerine', cursive;
   color: #c9c1ac;
@@ -431,7 +443,7 @@ body{
 /*############# Footer ###########################*/
 .footer h2{
   font-family: 'Courgette', cursive;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 #back-to-top{

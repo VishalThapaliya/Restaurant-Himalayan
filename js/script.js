@@ -63,5 +63,12 @@ $(document).ready(function () {
     // other options
   });
 
-
+  // about us magnificPopup
+  // From jQuery object
+$('#btn-learn').magnificPopup({
+  items: {
+      src: $('<div class="aboutus-popup"> Notre restaurent est situé au cœur de centre ville du Montrouge plus précisément deux pas de la mairie du Montrouge et de station du métro port d’Orléans. Dans notre restaurent, vous ferez connaissance avec la cuisine de la région Himalaya plus particulièrement du Népal et nord de l’inde. Vous pourrez y déguster des plats  avec une saveur  nouvelle au poulet, à l’agneau, aux poissons, au crevette, au gambas, aux fameux plats briyanis préparé avec 24 épices, aux grillades, dont le poulet tandoori, tikka, au seek kabbab et aux pains cuits au tandoor (four traditionnel indien en terre). <br/><br/> Notre équipe sera heureux de vous accueillir dans une atmosphère calme, un décor chaleureux et convivial. </div>'),
+      type: 'inline'
+  }
+});
 });
